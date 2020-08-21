@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render("help", {
-        message: 'Press control+c to copy and contol+v to paste!',
+        message: 'Paste here the location you want to check its forecast',
         title: 'Help',
         name: 'Ofek Primor'
     })
