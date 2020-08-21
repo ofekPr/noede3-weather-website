@@ -19,9 +19,13 @@ const forecast = (lat, long, callback) => {
         body.current.weather_descriptions[0] +
           ". It is currently " +
           body.current.temperature +
-          " degress out. It feels like " +
+          "c degress out. It feels like " +
           body.current.feelslike +
-          " degress out."
+          "c degress out. The humidity is " +
+          body.current.humidity +
+          '%. The wind is ' +
+          body.current.wind_speed +
+          'km/h.'
       );
     }
   });
