@@ -1,5 +1,4 @@
 const request = require("request");
-const chalk = require("chalk");
 
 const forecast = (lat, long, callback) => {
   const url =
